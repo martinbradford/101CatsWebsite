@@ -61,7 +61,7 @@
             to start the installation process and follow the instructions below.
         </p>
         <p>
-            <format color="red" style="bold">101Cats is a program that is not widely used and this can trigger false
+            <format color="Red" style="bold">101Cats is a program that is not widely used and this can trigger false
                 positive
                 warnings from some virus scanning software. The author takes care to keep his development system clean
                 and runs Norton

@@ -8,6 +8,6 @@
 
     <toc-element topic="HomePage.topic">
         <toc-element topic="How-to-obtain-101Cats.topic"/>
+        <toc-element topic="ReleaseNotes.topic"/>
     </toc-element>
-    <toc-element topic="ReleaseNotes.topic"/>
 </instance-profile>
