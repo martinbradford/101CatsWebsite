@@ -10,6 +10,7 @@
             <header-logo> Google-Noto-Emoji-Animals-Nature-22221-cat.512.png </header-logo>
             <product-web-url>https://www.101cats.co.uk</product-web-url>
             <custom-favicons>Google-Noto-Emoji-Animals-Nature-22221-cat.32.png</custom-favicons>
+            <custom-css>custom.css</custom-css>
         </variables>
 
         <footer>

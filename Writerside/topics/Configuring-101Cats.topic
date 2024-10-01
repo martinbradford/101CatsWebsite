@@ -44,7 +44,10 @@
         <control>config.xml</control>
         with your favorite text editor (I recommend Notepad++). Editing a moderately complex XML file by hand can be
         error prone, so please take a backup copy of the file before changing it!
+        <br/>
+        The configuration dialogue window looks like this:
     </p>
+    <img alt="ConfigDialogue1.png" src="ConfigDialogue1.png"/>
     <p>The config file is only read once when 101Cats is started. If you make changes either through the dialogue box,
         or directly by editing the XML file, the changes will not be actioned until 101Cats is reloaded. You can always
         do this by closing the application and running it again from the Windows start menu. For convenience, there is a
