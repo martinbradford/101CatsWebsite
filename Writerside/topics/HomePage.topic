@@ -40,14 +40,14 @@
                 </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
-        <secondary>
-            <title>Installing 101Cats</title>
-            <a href="mailto:email@example.com">Send Email</a>
-            <!--            <a href=""/>-->
-            <a href="How-to-obtain-101Cats.topic" summary="Installation requirements and download"/>
-            <!--            <a href="">Custom card title</a>-->
-            <!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
-        </secondary>
+<!--        <secondary>-->
+<!--            <title>Installing 101Cats</title>-->
+<!--            <a href="mailto:email@example.com">Send Email</a>-->
+<!--            &lt;!&ndash;            <a href=""/>&ndash;&gt;-->
+<!--            <a href="How-to-obtain-101Cats.topic" summary="Installation requirements and download"/>-->
+<!--            &lt;!&ndash;            <a href="">Custom card title</a>&ndash;&gt;-->
+<!--            &lt;!&ndash;            <a href="" summary="With a custom card summary">Custom card title</a>&ndash;&gt;-->
+<!--        </secondary>-->
 
         <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
         <misc>
@@ -69,40 +69,40 @@
 <!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
 <!--            </cards>-->
 
-            <links>
-                <group>
-                    <title>Other related topics as links!</title>
-                    <a href="https://news.bbc.co.uk">Hit me!</a>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-
-            </links>
-
-            <links narrow="true">
-                <group>
-                    <title>More related topics</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
+<!--            <links>-->
 <!--                <group>-->
-<!--                    <title>Three in a row</title>-->
-<!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
+<!--                    <title>Other related topics as links!</title>-->
+<!--                    <a href="https://news.bbc.co.uk">Hit me!</a>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
 <!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
 <!--                </group>-->
+
+<!--            </links>-->
+
+<!--            <links narrow="true">-->
 <!--                <group>-->
-<!--                    <title>Each group is narrow</title>-->
+<!--                    <title>More related topics</title>-->
 <!--                    <a href=""/>-->
-<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
 <!--                    <a href="">Custom card title</a>-->
-<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
 <!--                </group>-->
-            </links>
+<!--&lt;!&ndash;                <group>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <title>Three in a row</title>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href=""/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href=""/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="">Custom card title</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="">Custom card title</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </group>&ndash;&gt;-->
+<!--&lt;!&ndash;                <group>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <title>Each group is narrow</title>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href=""/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href=""/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="">Custom card title</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a href="">Custom card title</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </group>&ndash;&gt;-->
+<!--            </links>-->
         </misc>
     </section-starting-page>
 
