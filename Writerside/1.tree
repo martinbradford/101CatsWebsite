@@ -4,7 +4,10 @@
 
 <instance-profile id="1"
                  name="101Cats"
-                 start-page="section-starting-page.topic">
+                 start-page="HomePage.topic">
 
-    <toc-element topic="section-starting-page.topic"/>
+    <toc-element topic="HomePage.topic">
+        <toc-element topic="How-to-obtain-101Cats.topic"/>
+    </toc-element>
+    <toc-element topic="ReleaseNotes.topic"/>
 </instance-profile>
