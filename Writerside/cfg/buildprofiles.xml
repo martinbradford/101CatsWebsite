@@ -3,11 +3,25 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables/>
     <build-profile instance="1">
         <variables>
             <noindex-content>true</noindex-content>
+            <header-logo> Google-Noto-Emoji-Animals-Nature-22221-cat.512.png </header-logo>
+            <product-web-url>https://www.101cats.co.uk</product-web-url>
+            <custom-favicons>Google-Noto-Emoji-Animals-Nature-22221-cat.32.png</custom-favicons>
         </variables>
+
+        <footer>
+<!--            <social type="facebook" href="https://example.com">Product page on Facebook</social>-->
+<!--            <social type="rss" href="https://example.com">Product RSS feed</social>-->
+            <social type="email" href="one.oh.onecats@outlook.com">Send us an email</social>
+            <link href="https://groups.io/g/101Cats">101Cats on Groups.io</link>
+            <link href="https://github.com/martinbradford/101Cats/issues">GitHub Issues</link>
+            <link href="https://github.com/martinbradford/101Cats/discussions">GitHub Discussions</link>
+            <copyright>2024 G8FXC</copyright>
+        </footer>
+
     </build-profile>
 
 </buildprofiles>

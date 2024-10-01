@@ -43,7 +43,7 @@
         <!--            <li>Second prerequisite</li>-->
         <!--        </list>-->
     </chapter>
-    <chapter id="how-to-perform-a-task" title="Downloading 101Cats.">
+    <chapter id="how-to-download" title="Downloading 101Cats.">
         <p>Download a copy of the installation image using the links below. This will download a file
             with a name of the form "setup
             <emphasis>n.n.n.n</emphasis>
@@ -72,28 +72,17 @@
                 which is saying that this is a rarely seen program and should be regarded with some suspicion.
             </format>
         </p>
-        <!--        <list type="decimal">-->
-        <!--            <li>-->
-        <!--                <p>Step with a code block</p>-->
-
-        <!--                <code-block lang="bash">-->
-        <!--                    run this &#45;&#45;that-->
-        <!--                </code-block>-->
-        <!--            </li>-->
-        <!--            <li>-->
-        <!--                <p>Step with a <a href="https://www.jetbrains.com">link</a></p>-->
-        <!--            </li>-->
-        <!--            <li>-->
-        <!--                <p>Step with a list.</p>-->
-        <!--                <list>-->
-        <!--                    <li>List item</li>-->
-        <!--                    <li>List item</li>-->
-        <!--                    <li>List item</li>-->
-        <!--                </list>-->
-        <!--            </li>-->
-        <!--        </list>-->
     </chapter>
 
+    <chapter title="Downloads" id="downloads">
+        The current released version of 101Cats is V1.0.9.11 and you can download it via this  <resource src="setup 1.0.9.11.zip">link</resource>
+        <p>Previous versions are available as follows </p>
+        <table>
+            <tr><td> <resource src="setup1.0.9.9.zip">V1.0.9.9</resource></td></tr>
+            <tr><td><resource src="setup(1.0.9.7).zip">V1.0.9.7</resource></td></tr>
+        </table>
+
+    </chapter>
     <chapter id="5chapter0" title="Installing 101Cats">
         <p>
             When you run
@@ -109,8 +98,7 @@
         <p>There are currently no installation options for 101Cats apart from the installation directory. Configuration
             files are not stored in the program directory, so it can be left in the Windows default location.</p>
         <p>When the installation is complete, you can proceed to perform an initial configuration following the
-            instructions
-            below.</p>
+            instructions <a href="Configuring-101Cats.topic">below. </a></p>
 
     </chapter>
 
