@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       id="Using-an-external-SDR-as-a-high-resolution-panadaptor"
-       title="Using an external SDR as a high resolution panadaptor">
+<topic id="Using-an-external-SDR-as-a-high-resolution-panadaptor"
+       title="Using an external SDR as a high resolution panadaptor"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <title>
         Using an external SDR as a high resolution panadaptor
@@ -13,6 +13,12 @@
         moderate and there are benefits that can be had by connecting an external SDR unit such as an SDRPlay RSP1A. A
         unit such as this works with an application on the shack PC which processes the output of the SDR, tuning it to
         the required frequency, demodulating the RF and applying functions such as noise reduction and filtering.</p>
+    <p>The Ftdx101 has excellent support for an external SDR with sockets on the back panel for both RF and IF outputs
+        to drive the receiver. I originally used an SDRPlay RSP1A connected to the RF output of the main receiver. I've
+        subsequently upgraded that to an SDRPlay RSP Duo which has two independent receivers. The RSP Duo receivers are
+        coherent and will support true diversity reception with appropriate software. The two receivers of the RSP Duo
+        connect to the two RF outputs of the FTdx101D and the diversity function of SDRUno virtually deletes most local
+        QRN.</p>
     <p>The two leading SDR applications for Windows are SDR Console and SDR Uno. When paired up with a suitable SDR,
         these can make your PC function as a very nice general coverage receiver spanning frequencies from Long Wave all
         the way up to microwaves. They also include functions that will allow them to be interfaced to many modern HF
@@ -53,10 +59,10 @@
     <code-block lang="xml">
 
         &lt;SDRPort enable=&quot;true&quot;&gt;
-        &lt;PortName&gt;COM44&lt;/PortName&gt;
-        &lt;PortSpeed&gt;38400&lt;/PortSpeed&gt;
-        &lt;App&gt;SDRUNO&lt;/App&gt;
-    &lt;/SDRPort&gt;
+            &lt;PortName&gt;COM44&lt;/PortName&gt;
+            &lt;PortSpeed&gt;38400&lt;/PortSpeed&gt;
+            &lt;App&gt;SDRUNO&lt;/App&gt;
+        &lt;/SDRPort&gt;
     </code-block>
 
     <p>Permissible values are

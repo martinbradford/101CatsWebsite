@@ -34,7 +34,7 @@
             display. It works well enough, but represents a significant investment and occupies quite a lot of space in
             the shack. You can buy a cheap USB video digitizer through Amazon (and other web retail sources) for around
             $20 which will allow 101Cats to capture the video output from the radio and display it in a movable and
-            realizable window on your PC screen.</p>
+            resizeable window on your PC screen.</p>
             <img src="https://github.com/martinbradford/101Cats/assets/30900693/5d969778-f67d-49d1-b459-bf219bd7e5b9"
                  alt="Image of Papeaso video digitizer" style="inline" width="450"/>
         <p>101Cats will allow you to tune the radio by pointing into the waterfall display in this window and clicking
