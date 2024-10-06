@@ -75,9 +75,10 @@
     </chapter>
 
     <chapter title="Downloads" id="downloads">
-        The current released version of 101Cats is V1.0.9.11 and you can download it via this  <resource src="setup 1.0.9.11.zip">link</resource>
+        The current released version of 101Cats is V1.0.9.12 and you can download it via this <resource src="Setup 1.0.9.12.zip"> link </resource>
         <p>Previous versions are available as follows </p>
         <table style="none">
+            <tr><td><resource src="setup 1.0.9.11.zip"></td></tr>
             <tr><td><resource src="setup1.0.9.9.zip">V1.0.9.9</resource></td></tr>
             <tr><td><resource src="setup(1.0.9.7).zip">V1.0.9.7</resource></td></tr>
         </table>

@@ -39,15 +39,46 @@
 
 
     </chapter>
-    <chapter id="v1-0-9-10" title="V1.0.9.10">
+
+    <chapter id="v1-0-9-12" title="V1.0.9.12">
         <list>
-            <li>bugfix of 1.0.9.9 - removed XSD validation because I got the XSD file wrong</li>
+            <li>The size and position of all major windows is remembered across invocations of 101Cats. This has the
+                potential to "lose" windows if you make major changes to your monitor configuration, so the hotkey Alt-C
+                has been added which will bring all windows back to the top left corner of the main monitor.
+            </li>
+            <li>An early demonstration of speech output has been added. Currently, this is limited to announcing changes
+                to the filter width and shift of the main receiver. There is a checkbox in the &quot;miscellaneous&quot;
+                tab of
+                the configuration dialogue box to turn this on and off. This is primarily intended for Thomas (OZ1JT)
+                who has impaired vision, but comments are welcomed from all users.
+            </li>
+            <li>An option to display the rig temperature at all times rather than only while transmitting has been
+                implemented. This is in response to a request from Kees (ON9KVE) and is still experimental.
+                <img alt="Config1.png" src="Config1.png"/>
+
+                When it is enabled, the main window gains a text field for the current temperature and a check box to
+                enable or disable polling. Note that enabling polling will stop the screen saver on the FTdx101 ever
+                activating. This remains an experimental feature and the presentation on the main window may change.
+                Please submit comments and suggestions.
+
+                <img alt="TemperatureReadout.png" src="TemperatureReadout.png"/>
+
+            </li>
         </list>
     </chapter>
+
+
     <chapter id="v1-0-9-11" title="v1.0.9.11">
         <list>
             <li>further bugfix - bandplan configuration working properly</li>
         </list>
     </chapter>
+
+    <chapter id="v1-0-9-10" title="V1.0.9.10">
+        <list>
+            <li>bugfix of 1.0.9.9 - removed XSD validation because I got the XSD file wrong</li>
+        </list>
+    </chapter>
+
 
 </topic>
