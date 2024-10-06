@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       id="Diversity-reception-with-an-RSPduo" title="Diversity reception with an SDRPlay RSPDuo">
+<topic id="Diversity-reception-with-an-RSPduo"
+       title="Diversity reception with an SDRPlay RSPDuo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <title>
         Diversity reception with an SDRPlay RSPDuo
     </title>
-    <p>I've recently started using an <b>SDRPlay RSPduo</b> receiver in diversity mode to combat local QRN - and it is very
-        impressive! The configuration is complex and I've written some notes on how to do it - get them here <resource src="Diversity_Reception_with_an_RSPDuo_and_FTdx101D.pdf"/>.</p>
+    <p>I've recently started using an <b>SDRPlay RSPduo</b> receiver in diversity mode to combat local QRN - and it is
+        very
+        impressive! The configuration is complex and I've written some notes on how to do it - get them
+        <resource src="Diversity_Reception_with_an_RSPDuo_and_FTdx101D.pdf">here</resource>
+        .
+    </p>
 
 </topic>
