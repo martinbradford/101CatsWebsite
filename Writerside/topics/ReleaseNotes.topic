@@ -9,6 +9,22 @@
         Release notes
     </title>
 
+    <chapter id="v1-1-0-0" title="V1.1.0.0">
+        <list>
+            <li>A coding error that could result in window sizes being restored too small has been fixed. This only
+                occurred with some video cards whose drivers report window sizes that are not integer values.
+            </li>
+            <li>An option has been added to report bands in metres rather than MHz. This is selected via a new option in
+                the configuration file : <b/>
+                <code-block lang="xml">
+                    &lt;BandUnit&gt;m&lt;/BandUnit&gt;</code-block>
+                This option has not yet been carried through to the configuration dialogue box - if you want to select
+                it, you will have to manually edit the configuration file. <tip>
+                    See <a href="Configuring-101Cats.topic">here for more details.</a>
+                </tip>
+            </li>
+        </list>
+    </chapter>
 
     <chapter id="v1-0-9-12" title="V1.0.9.12">
         <list>

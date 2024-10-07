@@ -76,13 +76,16 @@
     </chapter>
 
     <chapter id="downloads" title="Downloads">
-        The current released version of 101Cats is V1.0.9.12 and you can download it via this
-        <resource src="Setup 1.0.9.12.zip"> link</resource>
-        <warning>There is a bug in V1.0.9.12 which can make it lose windows with some video card configurations. This
-            will be solved in the next release.
-        </warning>
+        The current released version of 101Cats is V1.1.0.0 and you can download it via this
+        <resource src="Setup 1.1.0.0.zip"> link</resource>
+
         <p>Previous versions are available as follows </p>
         <table style="none">
+            <tr>
+                <td>
+                    <resource src="Setup 1.0.9.12.zip">V1.0.9.12</resource>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <resource src="setup 1.0.9.11.zip">V1.0.9.11</resource>
