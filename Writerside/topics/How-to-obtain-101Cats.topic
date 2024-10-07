@@ -2,7 +2,8 @@
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic id="How-to-obtain-101Cats"
        title="How to obtain 101Cats"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <title>
         How to obtain 101Cats
@@ -74,13 +75,29 @@
         </p>
     </chapter>
 
-    <chapter title="Downloads" id="downloads">
-        The current released version of 101Cats is V1.0.9.12 and you can download it via this <resource src="Setup 1.0.9.12.zip"> link </resource>
+    <chapter id="downloads" title="Downloads">
+        The current released version of 101Cats is V1.0.9.12 and you can download it via this
+        <resource src="Setup 1.0.9.12.zip"> link</resource>
+        <warning>There is a bug in V1.0.9.12 which can make it lose windows with some video card configurations. This
+            will be solved in the next release.
+        </warning>
         <p>Previous versions are available as follows </p>
         <table style="none">
-            <tr><td><resource src="setup 1.0.9.11.zip">V1.0.9.11</resource></td></tr>
-            <tr><td><resource src="setup1.0.9.9.zip">V1.0.9.9</resource></td></tr>
-            <tr><td><resource src="setup(1.0.9.7).zip">V1.0.9.7</resource></td></tr>
+            <tr>
+                <td>
+                    <resource src="setup 1.0.9.11.zip">V1.0.9.11</resource>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <resource src="setup1.0.9.9.zip">V1.0.9.9</resource>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <resource src="setup(1.0.9.7).zip">V1.0.9.7</resource>
+                </td>
+            </tr>
         </table>
 
     </chapter>
