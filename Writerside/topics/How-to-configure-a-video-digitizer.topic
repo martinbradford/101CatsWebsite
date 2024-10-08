@@ -63,8 +63,38 @@
             to install device drivers before plugging it in for the first time - failure to do this correctly can result
             in configuration errors that are difficult to correct.</p>
         <p>Once any necessary device drivers have been installed, plug the video digitiser into a free USB socket and
-            connect its input to the video output of the radio with the cable you purchased.</p>
-        <p>To be continued...</p>
+            connect its input to the video output of the radio with the cable you purchased. If all goes well, you
+            should find that you have gained an additional "camera" in the Windows Device Manager:</p>
+        <img alt="DeviceManager1.png" src="DeviceManager1.png"/>
+        <p>If you can't see a new device with a name of the form USB3.0 Capture there, there is no point in proceeding -
+            review the installation process thus far and seek further advice.</p>
+        <p>Assuming that you can see the new device in Device Manager, then it is time to check the configuration of the
+            radio. Hit the "FUNC" button on the front panel and select the "DISPLAY SETTING" button on the screen:</p>
+        <img alt="FTdx101TopLevelMenu.png" src="FTdx101TopLevelMenu.png"/>
+        <p>This will bring up the DISPLAY SETTING screen on the radio:</p>
+        <img alt="FTdx101DisplaySetting1.png" src="FTdx101DisplaySetting1.png"/>
+        <p>Select the EXT MONITOR tab and check that the EXT DISPLAY is turned on and the resolution is set to
+            800x600.</p>
+
+        <p>Although it is not essential, it is worth carrying out a quick check that everything is working properly bu
+            running the "Camera" application on the PC. If the PC has a webcam fitted, you will probably find yourself
+            gazing at your own handsome face - if so, click the "Change camera" button in the top right of the window
+            and you should see the screen of the FTdx101 in glorious technicolour! </p>
+        <img alt="CameraCapture.png" src="CameraCapture.png"/>
+        <p>The final step is to configure 101Cats to show it - click the word "Configure" towards the right hand end of
+            the window title bar and the Configuration Dialogue Box should be displayed:</p>
+        <img alt="ConfigurationDialogue1.png" src="ConfigurationDialogue1.png"/>
+        <p>Select the newly installed "camera" in the Stream combo-box and enable the screen stream. Restart 101Cats
+            (always necessary after changing the configuration). Click the "Spectrum" button near the bottom of the
+            column of buttons on the right hand side of the main window and you should see:</p>
+        <img alt="RadioDisplay.png" src="RadioDisplay.png"/>
+        <p>The Radio Buttons along the top of the window select the metric that each meter will display. The controls at
+            the bottom should be fairly self-explanatory. If the mouse is hovering over this window and you rotate the
+            mouse wheel, then you will tune the receiver. Clicking in the waterfall or spectrum display will tune to the
+            frequency you are pointing to. Note that tuning by clicking in the spectrum display is only supported with
+            the spectrum of a single receiver displayed. If you display the waterfalls for both main and sub like this,
+            101Cats is unable to tune by clicking.</p>
+        <img alt="slpitWaterfall.png" src="slpitWaterfall.png"/>
     </chapter>
 
 </topic>
