@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       id="How-to-configure-a-video-digitizer" title="How to configure a video digitizer">
+
+    <title>
+        How to configure a video digitizer
+    </title>
+    <p>A common requirement of 101Cats users is to configure it to show the radio's display screen in a moveable and
+        resizable
+        window on the PC screen. The radio outputs the image of the display through the DVI port on the back and this
+        can be
+        connected to a dedicated monitor, but this can be an expensive option and uses up valuable desk space. The
+        addition of a
+        cheap video digitizer and 101Cats allows you to capture and route the screen display to a separate window on
+        your PC
+        screen.</p>
+    <warning>
+        <p>
+            <control>Disclaimer</control>
+        </p>
+        <p>Yaesu seem to have done a slightly sloppy job of designing the circuitry driving the DVI port on the back of
+            the radio. There is no problem if you are connecting it to a DVI monitor, but they are increasingly rare.
+            Most people have to use a monitor with an HDMI connection and the majority of video digitizers available are
+            also HDMI. The problem is that HDMI ports are bi-directional and some output signals that can damage the
+            video port on the FTdx101. The damage is limited to blowing a tiny SMD fuse on the FTdx101 main board - but
+            although the replacement component is cheap, many of us are not competent to carry out such delicate work
+            and will have to send the radio to Yaesu for repair.
+        </p>
+        <p>The components that are described below have been used by multiple FTdx101 owners and have not caused any
+            damage. Other digitizers and cables may be less compatible. The author cannot take responsibility for any
+            damage done to your radio.</p>
+    </warning>
+    <chapter title="Components required" id="components_required">
+        <p>In order to configure the screen within a window, you will need a suitable video digitizer and a cable to
+            connect it to your radio. The device that most users have deployed is the Papeaso video capture card : </p>
+        <img
+                alt="Papeaso.png" src="Papeaso.png"/>
+        <p>You can obtain this device from Amazon for less than $20 - see <a
+                href="https://www.amazon.com/Capture-Recording-Wonderful-Streaming-Recorder/dp/B091NX27S8/?th=1">this
+            link.</a> That is a link to the U.S. Amazon site, but the same device is available at a comparable price
+            from most other Amazon sites.</p>
+        <p>There are many other video digitizers available - hard-core gamers use them to capture and broadcast their
+            game play as video streams. Many of these are far more expensive and have higher specifications than the
+            Papeaso. There have been reports from some FTdx101 users that some of these high specification devices are
+            not compatible with the video output of the radio. If you are buying a device specifically to capture the
+            video output of the radio, I recommend sticking to the Papeaso or something very similar.</p>
+        <p>You will also need a cable to connect the digitizer to the port on the back of the radio. If you have bought
+            the recommended Papeaso device, then you are going to need an HDMI to DVI cable. An Amazon Basics cable like
+            <a href="https://www.amazon.co.uk/dp/B014I8UQJY?th=1">this</a> will do the job well. There is no merit in a
+            more expensive cable. Don't buy longer than you actually need to get between the radio and your PC - the
+            extra length may increase the risk of RFI from the radio disrupting the video stream.</p>
+        <p>You will need to plug the digitizer into a USB socket on your PC. The data rate is not very high and you can
+            probably get away with a USB2 socket, but if you do connect to one, avoid using any kind of USB hub which
+            will share the bandwidth of the socket with other devices. I like to connect the digitizer directly to a
+            USB3 socket in order to minimise the risk of stuttering video.</p>
+
+    </chapter>
+    <chapter title="Setting it up" id="setting-it-up">
+        <p>The following applies to the Papeaso device; other devices will follow a similar path.</p>
+        <p>Start by following the installation instructions for the video digitizer hardware. Check if it is necessary
+            to install device drivers before plugging it in for the first time - failure to do this correctly can result
+            in configuration errors that are difficult to correct.</p>
+        <p>Once any necessary device drivers have been installed, plug the video digitiser into a free USB socket and
+            connect its input to the video output of the radio with the cable you purchased.</p>
+        <p>To be continued...</p>
+    </chapter>
+
+</topic>
