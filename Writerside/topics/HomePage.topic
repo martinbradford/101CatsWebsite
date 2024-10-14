@@ -23,7 +23,13 @@
         The source code for 101Cats is available to interested parties subject to some simple terms and contitions.
         Please contact the author using this <a href="mailto:one.oh.onecats@outlook.com"> email address </a> to request
         access.
+
     </p>
-<p>This web site was built using JetBrains Writerside.</p>
+    <p>N.B. 101Cats is very definitely a Windows-only program. The author has developed it for his own use and, while he
+        makes it available for others, it is not a commercial product and only targets the author's requirements. It is
+        heavily dependent on Windows technologies and the effort required to port it to other operating systems seems
+        likely to be high. The source code is available on request and the author would welcome the development of
+        versions targeting Linux or MacOS if anyone with the necessary skills wishes to do it!</p>
+    <p>This web site was built using JetBrains Writerside.</p>
 
 </topic>
