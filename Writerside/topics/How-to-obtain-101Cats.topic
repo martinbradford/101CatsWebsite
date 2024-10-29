@@ -76,11 +76,12 @@
     </chapter>
 
     <chapter id="downloads" title="Downloads">
-        The current released version of 101Cats is V1.1.0.0 and you can download it via this
-        <resource src="Setup 1.1.0.0.zip"> link</resource>
+        The current released version of 101Cats is V1.1.0.1 and you can download it via this
+        <resource src="setup 1.1.0.1.zip"> link</resource>
 
         <p>Previous versions are available as follows </p>
         <table style="none">
+            <tr><td><resource src="Setup 1.1.0.0.zip"> V1.1.0.0</resource> </td></tr>
             <tr>
                 <td>
                     <resource src="Setup 1.0.9.12.zip">V1.0.9.12</resource>

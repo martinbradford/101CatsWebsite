@@ -9,6 +9,16 @@
         Release notes
     </title>
 
+
+    <chapter id="v1-1-0-1" title="V1.1.0.1">
+        <list>
+            <li>Added functionality to power radio up on program start and power it down on program end. Controlled via
+                check boxes in miscellaneous tab of configuration dialogue box.
+            </li>
+
+        </list>
+    </chapter>
+
     <chapter id="v1-1-0-0" title="V1.1.0.0">
         <list>
             <li>A coding error that could result in window sizes being restored too small has been fixed. This only
@@ -19,7 +29,8 @@
                 <code-block lang="xml">
                     &lt;BandUnit&gt;m&lt;/BandUnit&gt;</code-block>
                 This option has not yet been carried through to the configuration dialogue box - if you want to select
-                it, you will have to manually edit the configuration file. <tip>
+                it, you will have to manually edit the configuration file.
+                <tip>
                     See <a href="Configuring-101Cats.topic">here for more details.</a>
                 </tip>
             </li>
