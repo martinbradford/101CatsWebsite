@@ -62,7 +62,8 @@
     RF02; - Set VfoA roofing filter 3 KHz
     RF12; - Set VfoB roofing filter 3 KHz
     SS0550000; - Set Main Specturm Scope Span 50 KHz
-    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size> </code-block>
+    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size
+    </code-block>
 
 
     <emphasis> CW DX PEDITION</emphasis>
@@ -81,7 +82,8 @@
     RF05; - Set VfoA roofing filter 300 Hz
     RF12; - Set VfoB roofing filter 3 KHz
     SS0520000; - Set Main Specturm Scope Span 10 KHz
-    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size  </code-block>
+    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size
+    </code-block>
 
 
     <emphasis> SET SPAN to 1</emphasis>
