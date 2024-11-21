@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<Macros>
+
+  <Macro Row="0" Column="0" Background="black" Foreground="green" Title="Dim Lcd" Definition="DA00000000;EX04010400;" />
+
+  <Macro Row="0" Column="1" Background="Black" Foreground="green" Title="Norm Lcd" Definition="DA00001510;EX04010410;" />
+
+  <Macro Row="0" Column="2" Background="Black" Foreground="Yellow" Title="cw dxp" Definition="MD03;EX030117+01;AB;BI1;ML0001;ML1020;ST2;FR00;CO020001;CO120000;RF05;RF12;SS0550000;SS0670000;" />
+
+  <Macro Row="0" Column="3" Background="Black" Foreground="Yellow" Title="usb dxp" Definition="MD02;EX030117+05;AB;BI1;ML0001;ML1040;ST2;FR00;RF02;RF12;SS0550000;SS0670000;" />
+
+  <Macro Row="0" Column="4" Background="Black" Foreground="Yellow" Title="" Definition="" />
+
+  <Macro Row="1" Column="0" Background="Black" Foreground="Blue" Title="Span1" Definition="SS0500000;" />
+
+  <Macro Row="1" Column="1" Background="Black" Foreground="Blue" Title="Span5" Definition="SS0520000;" />
+
+  <Macro Row="1" Column="2" Background="Black" Foreground="Blue" Title="Span10" Definition="S0530000;" />
+
+  <Macro Row="1" Column="3" Background="Black" Foreground="Blue" Title="Span20" Definition="SS0540000;" />
+
+  <Macro Row="1" Column="4" Background="Black" Foreground="Blue" Title="Span50" Definition="SS0550000;" />
+
+  <Macro Row="2" Column="0" Background="Black" Foreground="Blue" Title="Span100" Definition="SS0560000;" />
+
+  <Macro Row="2" Column="1" Background="Black" Foreground="Blue" Title="Span200" Definition="SS0570000;" />
+
+  <Macro Row="2" Column="2" Background="Black" Foreground="Blue" Title="Span500" Definition="SS0580000;" />
+
+  <Macro Row="2" Column="3" Background="Black" Foreground="Cyan" Title="" Definition="" />
+
+  <Macro Row="2" Column="4" Background="Black" Foreground="Cyan" Title="" Definition="" />
+
+  <Macro Row="3" Column="0" Background="Black" Foreground="Cyan" Title="WF Fiz" Definition="SS06A0000;" />
+
+  <Macro Row="3" Column="1" Background="Black" Foreground="Cyan" Title="WF cur" Definition="SS0670000;" />
+
+  <Macro Row="3" Column="2" Background="Black" Foreground="Cyan" Title="WF cnt" Definition="SS0640000;" />
+
+  <Macro Row="3" Column="3" Background="Black" Foreground="Cyan" Title="Lvl +05" Definition="SS04+05.0;" />
+
+  <Macro Row="3" Column="4" Background="Black" Foreground="Cyan" Title="Lvl +10" Definition="SS04+10.0;" />
+
+  <Macro Row="4" Column="0" Background="Black" Foreground="Red" Title="50W" Definition="PC050;" />
+
+  <Macro Row="4" Column="1" Background="Black" Foreground="Red" Title="100W" Definition="PC100;" />
+
+  <Macro Row="4" Column="2" Background="Black" Foreground="Red" Title="200W" Definition="PC200;" />
+
+  <Macro Row="4" Column="3" Background="Black" Foreground="Yellow" Title="" Definition="" />
+
+  <Macro Row="4" Column="4" Background="Black" Foreground="Yellow" Title="" Definition="" />
+
+</Macros>

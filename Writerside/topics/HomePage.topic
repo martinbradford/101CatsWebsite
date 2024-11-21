@@ -30,7 +30,8 @@
         heavily dependent on Windows technologies and the effort required to port it to other operating systems seems
         likely to be high. The source code is available on request and the author would welcome the development of
         versions targeting Linux or MacOS if anyone with the necessary skills wishes to do it!</p>
-    <p>This web site was built using <a href="https://www.jetbrains.com/writerside/">JetBrains Writerside</a>. Writerside is a new development environment for the
+    <p>This web site was built using <a href="https://www.jetbrains.com/writerside/">JetBrains Writerside</a>.
+        Writerside is a new development environment for the
         publication of technical documentation on the web. It is productive, powerful and free! The author gratefully
         acknowledges the contribution that JetBrains makes to the open-source development community.</p>
 

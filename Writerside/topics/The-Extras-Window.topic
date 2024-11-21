@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="The Extras Window" id="The-Extras-Window">
+
+    <p>The 101Cats Main Window is pretty full and it is getting difficult to add functionality while maintaining
+        usability. Hence, with version 1.2, the decision was taken to add the "Extras Window" which will become the home
+        for some more obscure new functions as they are added.</p>
+
+    <p>The Extras Window is opened by clicking the "Extras" command in the title bar of the main window : <img
+            alt="The Extras button in the main window title bar" src="ExtrasSelect.png" style="block"/></p>
+
+    <p>This will open a new window : <img alt="Image of the Extras Window" src="ExtrasWindow.png" style="block"/></p>
+    <p>The Extras Window is very much a work in progress and will continue to be for a long time. It currently just
+        contains the CTCSS controls that Kees requested, but I'm sure that this will increase.</p>
+</topic>

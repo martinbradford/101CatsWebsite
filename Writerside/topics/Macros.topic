@@ -27,5 +27,130 @@
     <p>Be careful with the commands you send to the radio - particularly if you are not familiar with driving a radio
         via CAT commands. It should not be possible to physically damage the radio, but you could get it into a strange
         state that might require a factory reset!</p>
+    <p>Rick (I2BRT) has created a macro file that you may find useful. It can be downloaded via this
+        <resource src="Macros.xml"> link.</resource>
+        He has supplied the following documentation for it:
+
+    </p>
+
+
+    <emphasis> DIM LCD</emphasis>
+    <code-block lang="plain text">
+            DA00000000;EX04010400;
+        DA00000000; - TFT and LED Brightness level to zero
+        EX04010400; TFT Contrast to zero
+</code-block>
+
+
+    <emphasis>NORMAL LCD</emphasis>
+    <code-block lang="Plain Text">     DA00001510;EX04010410;
+    DA00001510; - TFT level to 15 and LED Brightness level to 10
+    EX04010410; TFT Contrast to 10   </code-block>
+
+
+    <emphasis> USB DX PEDITION</emphasis>
+
+    <code-block lang="Plain Text">
+        MD02; - Set mode USB
+    EX030117+05; - Preset split +5
+    AB; - Copy VfoA to VfoB
+    BI1; - Set Breakin On
+    ML0001; - Set Monior On
+    ML1040; - Set Monior level 40
+    ST2; - Split on +5
+    FR00; - Set VfoB Rx On
+    RF02; - Set VfoA roofing filter 3 KHz
+    RF12; - Set VfoB roofing filter 3 KHz
+    SS0550000; - Set Main Specturm Scope Span 50 KHz
+    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size> </code-block>
+
+
+    <emphasis> CW DX PEDITION</emphasis>
+
+    <code-block lang="Plain Text">
+    MD03; - Set mode CW
+    EX030117+01; - Preset split +1
+    AB; - Copy VfoA to VfoB
+    BI1; - Set Breakin On
+    ML0001; - Set Monior On
+    ML1020; - Set Monior level 20
+    ST2; - Split on +1
+    FR00; - Set VfoB Rx On
+    CO020001; - Set VfoA APF On
+    CO020001; - Set VfoB APF Off
+    RF05; - Set VfoA roofing filter 300 Hz
+    RF12; - Set VfoB roofing filter 3 KHz
+    SS0520000; - Set Main Specturm Scope Span 10 KHz
+    SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size  </code-block>
+
+
+    <emphasis> SET SPAN to 1</emphasis>
+    <code-block lang="Plain Text">    S0500000; </code-block>
+
+
+    <emphasis> SPAN to 5</emphasis>
+    <code-block lang="Plain Text">   SS0520000; </code-block>
+
+
+    <emphasis>SET SPAN to 10</emphasis>
+
+    <code-block lang="Plain Text">S0530000;</code-block>
+
+    <emphasis>SET SPAN to 20</emphasis>
+
+    <code-block lang="Plain Text">
+        SS0540000;
+    </code-block>
+
+    <emphasis>SET SPAN to 50</emphasis>
+
+    <code-block lang="Plain Text">
+        SS0550000;
+    </code-block>
+
+    <emphasis>SET SPAN to 100</emphasis>
+
+    <code-block lang="Plain Text">SS0560000;</code-block>
+
+    <emphasis>SET SPAN to 200</emphasis>
+
+    <code-block lang="Plain Text">SS0570000;</code-block>
+
+    <emphasis>SET SPAN to 500</emphasis>
+
+    <code-block lang="Plain Text">SS0580000;</code-block>
+
+    <emphasis>SET WATERFALL TO FIXED</emphasis>
+
+    <code-block lang="Plain Text">SS06A0000;</code-block>
+
+    <emphasis>SET WATERFALL TO CURSOR</emphasis>
+
+    <code-block lang="Plain Text">SS0670000;</code-block>
+
+    <emphasis>SET WATERFALL TO CENTER</emphasis>
+
+    <code-block lang="Plain Text">SS0640000;</code-block>
+
+    <emphasis>SET WATERFALL LEVEL TO +5</emphasis>
+
+    <code-block lang="Plain Text">SS04+05.0;</code-block>
+
+    <emphasis>SET WATERFALL LEVEL TO +10</emphasis>
+
+    <code-block lang="Plain Text">SS04+10.0;</code-block>
+
+    <emphasis>SET MAX POWER OUT TO 50W</emphasis>
+
+    <code-block lang="Plain Text">PC050;</code-block>
+
+    <emphasis>SET MAX POWER OUT TO 100W</emphasis>
+
+    <code-block lang="Plain Text">PC100;</code-block>
+
+    <emphasis>SET MAX POWER OUT TO 200W</emphasis>
+
+    <code-block lang="Plain Text">PC200;</code-block>
+
 
 </topic>
