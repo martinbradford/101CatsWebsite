@@ -41,7 +41,7 @@
         again, but neither SDR Console nor SDR Uno give you any function to specify which device, the FTdx101 or the SDR
         application, should be considered the master. It is all a question of timing and cannot be reliably predicted -
         you have found an interesting signal on either the FTdx101 or the RSP1A and want to listen to it on the other
-        device, but you could easily find the the restored synchronization works in the opposite direction and you lose
+        device, but you could easily find the restored synchronization works in the opposite direction and you lose
         the frequency of interest.</p>
     <p>In order to resolve this, 101Cats introduces a second interface to an external SDR application - the &quot;SDR
         Port&quot; that is referenced in the configuration screen. You create another virtual port pair, configure one
