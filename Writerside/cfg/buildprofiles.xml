@@ -11,6 +11,9 @@
             <product-web-url>https://www.101cats.co.uk</product-web-url>
             <custom-favicons>Google-Noto-Emoji-Animals-Nature-22221-cat.32.png</custom-favicons>
             <custom-css>custom.css</custom-css>
+            <algolia-id>3XW409TFGU</algolia-id>
+            <algolia-index>prod_101Cats</algolia-index>
+            <algolia-api-key>b235821b65e39fa41f6763c00e377fe9</algolia-api-key>
         </variables>
 
         <footer>
