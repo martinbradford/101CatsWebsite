@@ -24,6 +24,11 @@
         button via the 101Cats main window while observing the Trace Window (but do note that there will be other
         traffic displayed as well, so don't copy commands blindly, check them back to the CAT command manual if
         necessary.</p><img alt="MacroDefinition.png" src="MacroDefinition.png"/>
+    <note>The order of the commands in the macro definition may be significant. For example, the default behaviour of
+        the FTdx101 on
+        a mode change is to adjust the carrier frequency by an amount determined by the old and new mode. If you want to
+        switch to CW on 7.05MHz, do the mode change first, then issue the command to change frequency.
+    </note>
     <p>Be careful with the commands you send to the radio - particularly if you are not familiar with driving a radio
         via CAT commands. It should not be possible to physically damage the radio, but you could get it into a strange
         state that might require a factory reset!</p>
