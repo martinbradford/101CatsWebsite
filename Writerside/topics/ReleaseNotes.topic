@@ -9,6 +9,15 @@
         Release notes
     </title>
 
+    <chapter id="V1-2-0-0" title="1.2.0.0">
+        <list>
+            <li>Reduced size of "Save" and "Cancel" buttons in macros window.</li>
+            <li>Made number of macros user configurable</li>
+            <li>Added "Extras" window</li>
+            <li>Some cosmetic improvements</li>
+        </list>
+
+    </chapter>
 
     <chapter id="v1-1-0-1" title="V1.1.0.1">
         <list>
