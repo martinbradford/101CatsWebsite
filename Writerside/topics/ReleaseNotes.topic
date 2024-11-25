@@ -9,6 +9,15 @@
         Release notes
     </title>
 
+
+
+    <chapter id="V1-2-0-1" title="1.2.0.1">
+        <list>
+            <li>Added user definable delays in macro execution</li>
+        </list>
+
+    </chapter>
+
     <chapter id="V1-2-0-0" title="1.2.0.0">
         <list>
             <li>Reduced size of "Save" and "Cancel" buttons in macros window.</li>

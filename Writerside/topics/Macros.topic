@@ -35,6 +35,7 @@
     <p>Starting with V1.2.0.0, the number of macros is user configurable. Currently, this can only be configured by
         manually editing the macro definition file, Macros.xml. The top-level element of this file now optionally takes
         the number of rows and columns in the macros matrix as attributes e.g. </p>
+
     <code-block lang="xml">
         &lt;Macros rows="6" cols="8"&gt;
             .....
@@ -44,6 +45,13 @@
         an old style macros file and save it, the new attributes will be added. You can manually edit the macros.xml
         file to change the number of rows and columns, but you will also have to edit any macro definitions in it to
         make them consistent with the new dimensions of the macros table.</p>
+    <p>Starting with V1.2.0.1, it is possible to insert user definable delays into the macro definition. Insert a string
+        of one or more hash characters (#) into the definition. The delay string must be terminated with a semi-colon in
+        much the same way as any other macro command. Each hash character in the definition string equates to a delay of 50mS.</p>
+    <code-block lang="XML">
+          &lt;Macro Row="0" Column="3" Background="Black" Foreground="Yellow" Title="usb dxp"
+                 Definition="MD02;EX030117+05;##;AB;BI1;ML0001;ML1040;###;ST2;FR00;RF02;RF12;SS0550000;SS0670000;" /&gt;
+    </code-block>
     <p>Rick (I2BRT) has created a macro file that you may find useful. It can be downloaded via this
         <resource src="Macros.xml"> link.</resource>
         He has supplied the following documentation for it:
