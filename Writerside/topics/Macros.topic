@@ -55,7 +55,7 @@
             101Cats seems to be ignoring your edits, then try the following.</p>
         <p>Open an instance of Windows PowerShell (it must be PowerShell, Command will not work) and enter the following
             command :</p>
-        <code-block lang="PowerShell">
+        <code-block lang="Plain Text">
             Get-ChildItem ([environment]::getfolderpath(“personal”)+ "/G8FXC/101Cats")
         </code-block>
         <p>That should display a directory listing (including "Macros.xml") and precede it with the path to that
