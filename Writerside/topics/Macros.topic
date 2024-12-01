@@ -61,7 +61,7 @@
         <p>That should display a directory listing (including "Macros.xml") and precede it with the path to that
             directory. On my PC, it is showing :</p>
         <img alt="powershel1.png" src="powershel1.png"/>
-        <p>This is the copy of Macros.xml that you need to edit. If you want to rake a backup, this is also the
+        <p>This is the copy of Macros.xml that you need to edit. If you want to take a backup, this is also the
             file.</p>
     </note>
     <p>Starting with V1.2.0.1, it is possible to insert user definable delays into the macro definition. Insert a string
