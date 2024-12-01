@@ -45,12 +45,32 @@
         an old style macros file and save it, the new attributes will be added. You can manually edit the macros.xml
         file to change the number of rows and columns, but you will also have to edit any macro definitions in it to
         make them consistent with the new dimensions of the macros table.</p>
+    <note>
+        <p>With the latest releases of Windows, the Documents directory can be slightly ill-defined and it may be
+            difficult
+            to locate the Macros.xml file for manual editing. This is particularly true on PCs that have OneDrive
+            configured
+            according to Microsoft's recommendations. If you are unable to find Macros.xml, or have apparently found it
+            but
+            101Cats seems to be ignoring your edits, then try the following.</p>
+        <p>Open an instance of Windows PowerShell (it must be PowerShell, Command will not work) and enter the following
+            command :</p>
+        <code-block lang="PowerShell">
+            Get-ChildItem ([environment]::getfolderpath(“personal”)+ "/G8FXC/101Cats")
+        </code-block>
+        <p>That should display a directory listing (including "Macros.xml") and precede it with the path to that
+            directory. On my PC, it is showing :</p>
+        <img alt="powershel1.png" src="powershel1.png"/>
+        <p>This is the copy of Macros.xml that you need to edit. If you want to rake a backup, this is also the
+            file.</p>
+    </note>
     <p>Starting with V1.2.0.1, it is possible to insert user definable delays into the macro definition. Insert a string
         of one or more hash characters (#) into the definition. The delay string must be terminated with a semi-colon in
-        much the same way as any other macro command. Each hash character in the definition string equates to a delay of 50mS.</p>
+        much the same way as any other macro command. Each hash character in the definition string equates to a delay of
+        50mS.</p>
     <code-block lang="XML">
           &lt;Macro Row="0" Column="3" Background="Black" Foreground="Yellow" Title="usb dxp"
-                 Definition="MD02;EX030117+05;##;AB;BI1;ML0001;ML1040;###;ST2;FR00;RF02;RF12;SS0550000;SS0670000;" /&gt;
+                    Definition="MD02;EX030117+05;##;AB;BI1;ML0001;ML1040;###;ST2;FR00;RF02;RF12;SS0550000;SS0670000;"/&gt;
     </code-block>
     <p>Rick (I2BRT) has created a macro file that you may find useful. It can be downloaded via this
         <resource src="Macros.xml"> link.</resource>
