@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       id="Hotkeys" title="Hotkeys">
+
+    <title>
+        Hotkeys
+    </title>
+
+
+    <p>101Cats accepts several single character commands which are described below. These are implemented primarily to
+        support the Contour Shuttle milti-media controller, but they can also be entered directly from the keyboard and
+        may also be useful to support other controllers.</p>
+    <table>
+        <tr><td>F2</td><td>Tune down</td></tr>
+        <tr><td>F3</td><td>Tune up</td></tr>
+        <tr><td>Page down</td><td>Reduce tuning rate</td></tr>
+        <tr><td>Page up</td><td>Tune up</td></tr>
+        <tr><td>Alt-M</td><td>Switch to Main RX</td></tr>
+        <tr><td>Alt-S</td><td>Switch to Sub RX</td></tr>
+        <tr><td>W</td><td>Wide Roofing Filter</td></tr>
+        <tr><td>U</td><td>Mode USB</td></tr>
+        <tr><td>L</td><td>Mode LSB</td></tr>
+        <tr><td>C</td><td>Mode CW</td></tr>
+        <tr><td>N</td><td>Narrow Roofing Filter</td></tr>
+    </table>
+</topic>
