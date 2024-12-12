@@ -13,6 +13,7 @@
             <algolia-id>3XW409TFGU</algolia-id>
             <algolia-index>prod_101Cats</algolia-index>
             <algolia-api-key>b235821b65e39fa41f6763c00e377fe9</algolia-api-key>
+            <algolia-show-logo>true</algolia-show-logo>
             <noindex-content>false</noindex-content>
         </variables>
 
