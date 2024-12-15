@@ -19,18 +19,18 @@
         <p>
             <control>101Cats is a Windows program.</control>
         </p>
-        <!--        <p>You can change the element to-->
-        <!--            <emphasis>tip</emphasis>-->
-        <!--            or-->
-        <!--            <emphasis>warning</emphasis>-->
-        <!--            by renaming the style attribute below.-->
         <p>
             101Cats is specifically a Windows program. It is unlikely to run well, if at all, under emulators
             such as Wine hosted in other operating systems.
         </p>
+
+        <p>UPDATE - I'm currently working on migrating the code from the Mahapps Metro User Interface framework to the
+            Avalonia framework. This is being done to overcome some issues with Mahapps, but an additional benefit of
+            Avalonia is theoretical portability to other operating systems. If ths proves to be successful, versions
+            for MacOS and Linux should be possible.</p>
     </note>
     <chapter id="before-you-start" title="Before you start">
-        <p>101Cats is not particularly demanding of the computer on which it is running. Any PC that is capable
+        <p>101Cats is not particularly demanding of the computer on which it is running. Any PC that is capablel
             of reasonable performance in Windows should be sufficient. For a long time, the author ran it very
             successfully
             on an AMD Radeon 5600 with 16Gb of memory and it has demonstrably worked well on less powerful machines.</p>

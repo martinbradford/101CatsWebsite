@@ -16,7 +16,7 @@
         <tr><td>F2</td><td>Tune down</td></tr>
         <tr><td>F3</td><td>Tune up</td></tr>
         <tr><td>Page down</td><td>Reduce tuning rate</td></tr>
-        <tr><td>Page up</td><td>Tune up</td></tr>
+        <tr><td>Page up</td><td>Increase tuning rate</td></tr>
         <tr><td>Alt-M</td><td>Switch to Main RX</td></tr>
         <tr><td>Alt-S</td><td>Switch to Sub RX</td></tr>
         <tr><td>W</td><td>Wide Roofing Filter</td></tr>
