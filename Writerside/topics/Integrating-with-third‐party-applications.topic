@@ -62,7 +62,21 @@
         per application basis.
     </p>
     <chapter title="Omnirig" id="omnirig">
-        <p>To Be Completed</p>
+        <p>As far as 101Cats is concerned, Omnirig is just another third-party application. Create a virtual port pair,
+            configure one side into 101Cats and the other into Omnirig, set Omnirig to connect to a Yaesu FTdx101D and
+            that should then work. Omnirig is a CAT multiplexer and you may have multiple applications trying to control
+            the radio simultaneously which can increase traffic through the virtual port pair, so don't set the speed
+            low. You should enable Auto Information on the 101Cats port that connects to Omnirig and allow Omnirig to
+            manage the onward flow or information to third-party applications. I've never tested Omnirig2 with 101Cats,
+            but I see no reason why it should not work. Omnirig2 is not compatible with Omnirig1 and few applications
+            use it.</p>
+        <p>Omnirig is driven by a configuration file which defines the interface to each of the radio models that it
+            supports. As new models are added, this file is updated to include them and it is now a large and complex
+            file. Errors do creep in and new releases of the configuration file are made. There have been errors in the
+            configuration relating to the FTdx101 series in some releases. So, if you enable Omnirig and one or more
+            applications do not behave as expected, do some internet research to see if you are experiencing a problem
+            that has been diagnosed and fixed. See https://groups.io/g/FTDX-101D/topic/70262621#msg586 for information
+            on one such Omnirig bug and how to fix it.</p>
     </chapter>
 
 </topic>
