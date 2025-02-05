@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Avalonia Re-write" id="Avalonia-Re-write">
+
+    <p>101Cats V1 was developed using a Windows application framework called MahApps Metro. This was chosen because it
+        is free and easy to work with, but it is getting a bit old now and that age is showing. I wanted to improve the
+        support for theming and that was proving to be quite difficult.</p>
+    <p>In order to address this, I've been experimenting with rebuilding the code to compile with an alternative
+        framework, Avalonia. As well as improving the support for theme customisation, Avalonia provides better support
+        for modern application architectures and the application code is coming out cleaner. </p>
+
+    <p>The re-write has been harder than I anticipated and I've done little else for the last couple of months. In the
+        process, I've improved the structure of the application and the performance seems to be better. An incidental
+        benefit of moving to Avalonia is that it is a multi-platform framework, and it should be relatively easy to
+        build 101Cats V2 to run on other operating systems including Linux and MacOS. I have not tried this yet, and it
+        is not a high priority for me, but I will test it out sometime soon.</p>
+    <p>I am adding an installer for a very early alpha release of 101Cats V2
+        <resource src="Avalonia101Cats.msi"> here</resource>
+        . It is still missing a lot of functionality and has many bugs. I am working through it and plugging gaps daily.
+        If you use 101Cats V1, please do not uninstall it - V2 is currently not a replacement! If you are feeling brave,
+        please do install both and give it a try. Both versions use the same configuration file, so it should come up
+        and run as soon as it is installed.
+    </p>
+    <p>Note that the current alpha of 101Cats V2 is a 64 bit Windows application - I'm developing under Windows 11 and
+        all installations of W11 are 64 bit. It should be possible to build a 32 bit version too and I will probably do
+        that soon. It is really too early for bug reports - there are many of them and we will fill up the Groups.IO
+        group! This will change soon as I plug the remaining gaps - I will invite fault reports and change requests soon.</p>
+</topic>

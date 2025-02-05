@@ -9,6 +9,7 @@
     <toc-element topic="HomePage.topic">
         <toc-element topic="How-to-obtain-101Cats.topic"/>
         <toc-element topic="ReleaseNotes.topic"/>
+        <toc-element topic="Avalonia-Re-write.topic"/>
     </toc-element>
     <toc-element topic="Wiki.topic">
         <toc-element topic="Configuring-101Cats.topic"/>
