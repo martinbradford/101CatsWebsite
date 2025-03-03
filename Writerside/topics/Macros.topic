@@ -99,14 +99,14 @@
         MD02; - Set mode USB
     EX030117+05; - Preset split +5
     AB; - Copy VfoA to VfoB
-    BI1; - Set Breakin On
-    ML0001; - Set Monior On
-    ML1040; - Set Monior level 40
+    BI1; - Set Break-in On
+    ML0001; - Set Monitor On
+    ML1040; - Set Monitor level 40
     ST2; - Split on +5
     FR00; - Set VfoB Rx On
     RF02; - Set VfoA roofing filter 3 KHz
     RF12; - Set VfoB roofing filter 3 KHz
-    SS0550000; - Set Main Specturm Scope Span 50 KHz
+    SS0550000; - Set Main Spectrum Scope Span 50 KHz
     SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size
     </code-block>
 
@@ -117,16 +117,16 @@
     MD03; - Set mode CW
     EX030117+01; - Preset split +1
     AB; - Copy VfoA to VfoB
-    BI1; - Set Breakin On
-    ML0001; - Set Monior On
-    ML1020; - Set Monior level 20
+    BI1; - Set Break-in On
+    ML0001; - Set Monitor On
+    ML1020; - Set Monitor level 20
     ST2; - Split on +1
     FR00; - Set VfoB Rx On
     CO020001; - Set VfoA APF On
     CO020001; - Set VfoB APF Off
     RF05; - Set VfoA roofing filter 300 Hz
     RF12; - Set VfoB roofing filter 3 KHz
-    SS0520000; - Set Main Specturm Scope Span 10 KHz
+    SS0520000; - Set Main Spectrum Scope Span 10 KHz
     SS0670000; - Set Main Spectrum Scope Mode to Waterfall Cursor normal size
     </code-block>
 
