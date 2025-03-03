@@ -26,11 +26,16 @@
         access.
 
     </p>
-    <p>N.B. 101Cats is very definitely a Windows-only program. The author has developed it for his own use and, while he
+    <p>N.B. The current release of 101Cats is very definitely a Windows-only program. The author has developed it for his own use and, while he
         makes it available for others, it is not a commercial product and only targets the author's requirements. It is
         heavily dependent on Windows technologies and the effort required to port it to other operating systems seems
         likely to be high. The source code is available on request and the author would welcome the development of
         versions targeting Linux or MacOS if anyone with the necessary skills wishes to do it!</p>
+
+    <p>That said, version 2 of 101Cats is in development and the code is being migrated to the Avalonia
+        development platform. Avalonia supports multiple operating systems including Linux and MacOS. An
+        experimental build of 101Cats V2 has run under Linux and it seems probable that builds for non-Windows
+        operating systems will be made available.</p>
     <p>This web site was built using <a href="https://www.jetbrains.com/writerside/">JetBrains Writerside</a>.
         Writerside is a new development environment for the
         publication of technical documentation on the web. It is productive, powerful and free! The author gratefully
