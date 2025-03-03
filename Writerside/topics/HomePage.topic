@@ -26,8 +26,9 @@
         access.
 
     </p>
-    <p>N.B. The current release of 101Cats is very definitely a Windows-only program. The author has developed it for his own use and, while he
-        makes it available for others, it is not a commercial product and only targets the author's requirements. It is
+    <p>N.B. The current release of 101Cats is very definitely a Windows-only program. The author has developed it for
+        his own use and, while he makes it available for others, it is not a commercial product and only targets the
+        author's requirements. It is
         heavily dependent on Windows technologies and the effort required to port it to other operating systems seems
         likely to be high. The source code is available on request and the author would welcome the development of
         versions targeting Linux or MacOS if anyone with the necessary skills wishes to do it!</p>

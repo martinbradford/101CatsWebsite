@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Terms and Conditions" id="Terms-and-Conditions">
+
+
+    <p>101Cats is free software - in the financial sense. The author developed it for his own use and, gradually, other
+        FTdx101 owners became aware of it and requested copies. The author is pleased to make it available to anyone
+        with an FTdx101 free of charge and free of any warranty. </p>
+    <p>101Cats interfaces with the radio solely via CAT commands issued through the serial port which the radio exposes
+        over the USB interface. As such, there should be no risk of it causing damage to your radio provided Yaesu have
+        made no mistakes in the implementation of the CAT command set. However, the author cannot accept any liability
+        for damage to the radio caused by any command that 101Cats issues to it.</p>
+    <p>You may download 101Cats from this web site and install it on as many PCs as you wish for use with as many radios
+        as you wish. You may give copies of the 101Cats installation program to others without explicit permission from
+        the author. You should make anyone that you give 101Cats to aware of these terms and conditions. </p>
+    <p>101Cats is not Open Source software in the strict sense since the source repository in GitHub is not publicly
+        accessible. The author currently does not wish to lose control of the software, but is pleased to make the
+        source code available to interested parties on request. The source code is copyright Martin Bradford (G8FXC) and
+        is subject to a BSD style licence.</p>
+</topic>
