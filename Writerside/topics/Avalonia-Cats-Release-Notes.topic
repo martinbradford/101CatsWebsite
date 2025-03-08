@@ -24,7 +24,7 @@
         are overrides for the default colour scheme, it is not necessary to provide values for every colour. The
         following is the contents of my local theme file:
     </p>
-    <code-block lang="CSV">
+    <code-block lang="Plain Text">
         Id,Value,Description
         "WBackgroundColor","DarkSlateGray","Window Background"
         "CBBackgroundColor","Cyan","Combobox Background"
