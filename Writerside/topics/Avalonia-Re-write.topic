@@ -17,8 +17,8 @@
         benefit of moving to Avalonia is that it is a multi-platform framework, and it should be relatively easy to
         build 101Cats V2 to run on other operating systems including Linux and MacOS. I have not tried this yet, and it
         is not a high priority for me, but I will test it out sometime soon.</p>
-    <p>I am adding an installer for a very early alpha release of 101Cats V2
-        <resource src="Avalonia101Cats.msi"> here</resource>
+    <p>I am adding an installer for a very early alpha release of
+        <resource src="New101Cats.msi"> <b>101Cats V2 here</b> </resource>
         . It is still missing a lot of functionality and has many bugs. I am working through it and plugging gaps daily.
         If you use 101Cats V1, please do not uninstall it - V2 is currently not a replacement! If you are feeling brave,
         please do install both and give it a try. Both versions use the same configuration file, so it should come up

@@ -11,6 +11,7 @@
         <toc-element topic="ReleaseNotes.topic"/>
         <toc-element topic="Terms-and-Conditions.topic"/>
         <toc-element topic="Avalonia-Re-write.topic"/>
+        <toc-element topic="Avalonia-Cats-Release-Notes.topic"/>
     </toc-element>
     <toc-element topic="Wiki.topic">
         <toc-element topic="Configuring-101Cats.topic"/>

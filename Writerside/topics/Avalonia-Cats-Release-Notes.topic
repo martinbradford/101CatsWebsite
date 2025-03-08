@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Avalonia Cats Release Notes" id="Avalonia-Cats-Release-Notes">
+
+    <p>The Avalonia Cats rewrite (V2) is still in development and the versions that are available should be regarded as
+        Alpha releases. These release notes will provide some basic guidance regarding functionality and known
+        bugs/issues.</p>
+    <p>
+        Avalonia101Cats is currently being shipped as a 64 bit executable. I'm trying to minimise the number of versions
+        I have to ship and I'm assuming that everyone is running a 64 bit version of Windows these days. I don't think
+        there is any reason why it can't be built as 32 bit - if anyone really wants it, ask me and I'll try. Currently,
+        I'm only shipping Windows versions. I have run an experimental build for Linux and it does appear to work - at
+        some point in the future, I will offer a Linux evaluation version.
+    </p>
+    <p>
+        One of the reasons for the rewrite was the fact that I wanted to implement reasonably complex theming for the
+        user interface and the Mahapps toolkit that I used in V1 was not very good at theming. Avalonia is a lot more
+        sophisticated and you have quite a lot of control over theming already. It is driven from a file called
+        "Theme.csv" which exists in the subdirectory "G8FXC\101Cats" within your Documents directory. This is very much
+        a work in progress. The format should remain fixed now, but the content will change many times. Note that these
+        are overrides for the default colour scheme, it is not necessary to provide values for every colour. The
+        following is the contents of my local theme file:
+    </p>
+    <code-block lang="CSV">
+        Id,Value,Description
+        "WBackgroundColor","DarkSlateGray","Window Background"
+        "CBBackgroundColor","Cyan","Combobox Background"
+        "CBForegroundColor","Red","Combobox Foreground"
+        "BBackgroundColor","#ffa0a0a0","Button Background"
+        "BForegroundColor","Black","Button Foreground"
+        "LabForegroundColour","Yellow","Label Foreground"
+        "HCCForegroundColor","Beige","Headered Control Foreground"
+        "TGLSForegroundColor","Yellow","Toggleswitch Foreground"
+        "RBForegroundColor","Cyan","Radio Button Foreground"
+        "CheckBoxForegroundChecked","Yellow","Checkbox Foreground"
+        "CheckBoxForegroundUnchecked","Yellow","Checkbox Foreground Unchecked"
+        "ComboBoxDropDownGlyphForeground","Red","Combobox Dropdown Glyph Foreground"
+        "MeterPanelColor","Beige","Meter Panel"
+        "TBlockForegroundColor","Black","Text Block Foreground"
+        "CheckBoxForegroundCheckedPointerOver","Cyan","Checkbox Foreground Mouse Over"
+        "TextControlButtonBackgroundPointerOver","Yellow","Text Control Button Background Pointer Over"
+        "TextBoxBackgroundThemeBrush","Pink","Text Box Background Colour"
+    </code-block>
+    <p>
+        Colours can be specified either by name or by hexadecimal RGB values. The named colours are :</p>
+    <p>
+        AliceBlue,AntiqueWhite ,Aqua ,Aquamarine ,Azure ,Beige ,Bisque ,Black ,BlanchedAlmond ,Blue ,BlueViolet ,Brown ,
+        BurlyWood, CadetBlue, Chartreuse, Chocolate, Coral, CornflowerBlue, Cornsilk, Crimson, Cyan,
+        DarkBlue, DarkCyan, DarkGoldenrod,
+        DarkGray, DarkGreen, DarkKhaki, DarkMagenta, DarkOliveGreen, DarkOrange, DarkOrchid, DarkRed,
+        DarkSalmon, DarkSeaGreen, DarkSlateBlue,DarkSlateGray, DarkTurquoise, DarkViolet, DeepPink, DeepSkyBlue,
+        DimGray, DodgerBlue, Firebrick ,FloralWhite , ForestGreen, Fuchsia , Gainsboro ,
+        GhostWhite ,Gold ,Goldenrod ,Gray ,Green ,GreenYellow ,Honeydew ,HotPink ,IndianRed ,Indigo ,Ivory ,Khaki ,
+        Lavender ,LavenderBlush ,LawnGreen ,LemonChiffon ,LightBlue ,LightCoral ,LightCyan ,LightGoldenrodYellow
+        ,LightGray ,LightGreen ,
+        LightPink ,LightSalmon ,LightSeaGreen ,LightSkyBlue ,LightSlateGray ,LightSteelBlue ,LightYellow ,Lime
+        ,LimeGreen ,Linen ,Magenta ,Maroon ,
+        MediumAquamarine ,MediumBlue ,MediumOrchid ,MediumPurple ,MediumSeaGreen
+        ,MediumSlateBlue,MediumSpringGreen,MediumTurquoise,MediumVioletRed ,
+        MidnightBlue,MintCream,MistyRose,Moccasin,NavajoWhite,Navy,OldLace,Olive,OliveDrab,Orange,OrangeRed,Orchid,PaleGoldenrod,PaleGreen,PaleTurquoise,PaleVioletRed,
+        PapayaWhip,PeachPuff,Peru,Pink,Plum,PowderBlue,Purple,Red,RosyBrown,RoyalBlue,SaddleBrown,Salmon,SandyBrown,
+        SeaGreen,SeaShell,Sienna,Silver,SkyBlue ,SlateBlue,SlateGray,Snow,SpringGreen,SteelBlue,Tan,Teal,
+        Thistle,Tomato,Transparent,Turquoise,Violet,Wheat,White,WhiteSmoke,Yellow,YellowGreen'
+    </p>
+    <p>RGB values are of the form "#ffa0a0a0" where the first digit (ff in this case) is the opacity and the remaining
+        three digits (a0a0a0) are the RGB values.</p>
+</topic>

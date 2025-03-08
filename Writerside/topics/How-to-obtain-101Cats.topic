@@ -29,6 +29,10 @@
             Avalonia is theoretical portability to other operating systems. If ths proves to be successful, versions
             for MacOS and Linux should be possible.</p>
     </note>
+    <note>
+        This page describes the current official release <b>V1</b>. If you are looking for the <b>V2</b> alpha release,
+        see  <a href="Avalonia-Re-write.topic">here</a>
+    </note>
     <chapter id="before-you-start" title="Before you start">
         <p>101Cats is not particularly demanding of the computer on which it is running. Any PC that is capablel
             of reasonable performance in Windows should be sufficient. For a long time, the author ran it very
@@ -36,8 +40,7 @@
             on an AMD Radeon 5600 with 16Gb of memory and it has demonstrably worked well on less powerful machines.</p>
         <p>101Cats was developed under Windows 10 and the development now continues under Windows 11. It should also
             work well under Windows 8. It has not been tested under earlier versions of Windows and successful operation
-            is
-            unlikely.</p>
+            is unlikely.</p>
         <!--        <p>Make sure that:</p>-->
         <!--        <list>-->
         <!--            <li>First prerequisite</li>-->
