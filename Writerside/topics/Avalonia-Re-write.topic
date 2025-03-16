@@ -29,7 +29,7 @@
         that soon. It is really too early for bug reports - there are many of them and we will fill up the Groups.IO
         group! This will change soon as I plug the remaining gaps - I will invite fault reports and change requests
         soon.</p>
-    <p> The current version is 2.0.0.4. This adds a user configurable "key bounce" filter to the processing queue.
+    <p> The current version is 2.0.0.5. This adds a user configurable "key bounce" filter to the processing queue.
         The configuration file is now called configV2.xml. The new parameter is :
     </p>
     <code-block lang="xml">	&lt;ReactiveThrottle&gt;100&lt;/ReactiveThrottle&gt;</code-block>
