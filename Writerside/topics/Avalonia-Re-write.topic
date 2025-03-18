@@ -35,4 +35,14 @@
     <code-block lang="xml">	&lt;ReactiveThrottle&gt;100&lt;/ReactiveThrottle&gt;</code-block>
     <p>the numeric parameter is the key-bounce filter delay in milli-seconds. Large numbers should eliminate "jitter",
         but at the expense of UI performance. </p>
+    <p>Note also that the implementation of the window that displays the FTdx101 screen has changed and is still not
+        fully working. It was necessary to split this functionality off to a second application which talks to the main
+        101Cats application over RPC. The current implementation does work, but the two applications do not synchronize
+        reliably with each other on startup. When you load 101Cats V2, it will automatically load the screen display
+        application, but it is necessary to then select the "Server|Connect" menu option in the screen window. Do this
+        before you select the "On" button in the 101Cats Main window. Once 101Cats has loaded and is connected to the
+        radio and operational, cycle through the various spectrum scope display options in the screen window and choose
+        a couple of different spans. This will allow the two applications to synchronize properly, after which the
+        spectrum window should operate pretty much the way it did in V1. This is inconvenient and will be addressed
+        sometime soon.</p>
 </topic>
