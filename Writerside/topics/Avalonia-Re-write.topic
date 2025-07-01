@@ -17,8 +17,8 @@
         benefit of moving to Avalonia is that it is a multi-platform framework, and it should be relatively easy to
         build 101Cats V2 to run on other operating systems including Linux and MacOS. I have not tried this yet, and it
         is not a high priority for me, but I will test it out sometime soon.</p>
-    <p>I am adding an installer for a very early alpha release of
-        <resource src="New101Cats.msi"><b>101Cats V2 here</b></resource>
+    <p>There is an installer for a beta release of
+        <resource src="Avalonia101Cats.msi"><b>101Cats V2 here</b></resource>
         . It is still missing a lot of functionality and has many bugs. I am working through it and plugging gaps daily.
         If you use 101Cats V1, please do not uninstall it - V2 is currently not a replacement! If you are feeling brave,
         please do install both and give it a try. Both versions use the same configuration file, so it should come up
@@ -29,20 +29,13 @@
         that soon. It is really too early for bug reports - there are many of them and we will fill up the Groups.IO
         group! This will change soon as I plug the remaining gaps - I will invite fault reports and change requests
         soon.</p>
-    <p> The current version is 2.0.0.5. This adds a user configurable "key bounce" filter to the processing queue.
+    <p> The current version is 2.0.0.8. This adds a user configurable "key bounce" filter to the processing queue.
         The configuration file is now called configV2.xml. The new parameter is :
     </p>
     <code-block lang="xml">	&lt;ReactiveThrottle&gt;100&lt;/ReactiveThrottle&gt;</code-block>
     <p>the numeric parameter is the key-bounce filter delay in milli-seconds. Large numbers should eliminate "jitter",
         but at the expense of UI performance. </p>
-    <p>Note also that the implementation of the window that displays the FTdx101 screen has changed and is still not
-        fully working. It was necessary to split this functionality off to a second application which talks to the main
-        101Cats application over RPC. The current implementation does work, but the two applications do not synchronize
-        reliably with each other on startup. When you load 101Cats V2, it will automatically load the screen display
-        application, but it is necessary to then select the "Server|Connect" menu option in the screen window. Do this
-        before you select the "On" button in the 101Cats Main window. Once 101Cats has loaded and is connected to the
-        radio and operational, cycle through the various spectrum scope display options in the screen window and choose
-        a couple of different spans. This will allow the two applications to synchronize properly, after which the
-        spectrum window should operate pretty much the way it did in V1. This is inconvenient and will be addressed
-        sometime soon.</p>
+    <p>After a significant programming effort, I have managed to implement the radio display window in Avalonia and,
+        therefore, removed the need for a separate application to display the FTdx101 screen. It's currently a bit
+        untidy and I need to put in some more effort on the window layout.</p>
 </topic>
