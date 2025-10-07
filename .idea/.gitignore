@@ -1,3 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/bookmarks.json
+/copilot.data.migration.agent.xml
+/copilot.data.migration.ask.xml
+/copilot.data.migration.ask2agent.xml
+/copilot.data.migration.edit.xml
+/material_theme_project_new.xml

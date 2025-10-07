@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="AI Tools for Programming" id="AI-Tools-for-Programming">
+
+    <p>As some of you already know, I've been doing some serious evaluation of the new generation of Artificial
+        Intelligence tools to assist developers like me. I had been involved in AI research in my youth, and I have been
+        very sceptical about the claims being made now, but I felt the need to see it in action for myself.</p>
+    <p>My chosen development environment is JetBrains Rider - both V1 and V2 of 101Cats are built in C# using this IDE.
+        JetBrains has added several AI tools to its IDEs over the last couple of years, so they were my first choice for
+        my initial foray into AI. Their basic tool is the "AI Assistant", which integrates tightly into the editor of
+        the IDE and monitors what you are typing, offering code completion and advice. It can also assist with
+        correcting
+        compile errors and even runtime errors. I've been using this for some time and it is very impressive. It
+        analyses the code that you are typing and recognises patterns, then offers to repeat them when it seems
+        appropriate. This was responsible for reducing the effort required to code 101Cats on many occasions. </p>
+    <p>More recently, JetBrains has introduced their AI Agent, which is called Junie. This picks up where the AI
+        Assistant leaves off - it can be instructed to perform far more complex actions. My focus over the last couple
+        of weeks has been to evaluate and understand Junie.</p>
+    <p>These AI Agents don't come free - you have to pay for the processing time they consume on the big server farms
+        that companies like OpenAI are operating, and the price can get quite high. Therefore, I did not want to waste
+        my money on abstract examples - I wanted my evaluation to focus on code that I was going to find useful in the
+        future. I have used two topics as my test beds - the first was 705Cats, which I will describe on another page,
+        and the other is the DX Cluster API that I'm going to talk about here.</p>
+    <p>101Cats has included a DX Cluster client window since its early days. It works reasonably well, but it is based
+        on code that I inherited from another developer and which never fitted very well into the overall structure of
+        the application. Experimentally, I tried opening a Junie chat window and typing :</p>
+
+    <control>
+        Create a C# class library containing an API to interface with a DX Cluster server. It should include
+        functions to connect to the server and to retrieve a list of recent DX Spots.
+    </control>
+    <p>I was not expecting too much, but it ground away for perhaps a minute, then churned out several C# source files
+        plus all the control files to create a JetBrains Rider project. But it had not finished yet - it compiled the
+        project. That generated several compilation errors - which Junie picked up, analysed and corrected. It went
+        through three cycles of compilation, error analysis and correction before it had a clean build.</p>
+    <p>I took a look at the code - it looked plausible. Flushed with success, I instructed Junie :</p>
+    <control>Create an NUNIT test suite for the DX Cluster API.</control>
+    <p>Again, it ground away for a minute or so before creating a new project that contained a decent looking test
+        suite. I told Junie to run the test suite, which she dutifully did. It uncovered a few errors, which Junie
+        noticed, analysed and fixed in the source code! By this time, I was beginning to be very impressed. If I were
+        still working as a professional programmer, I would be becoming very worried!</p>
+    <p>An API is of little value without an application, so I instructed Junie to</p>
+    <control>Create a Windows desktop appliction using the WPF framework. This application should include functions to
+        connect to a specified server and to collect DX Spots, displaying them in a list box.
+    </control>
+    <p>This did not take a lot longer, then Junie generated another Rider project containing the requested application.
+        I ran it and it errored! I asked Junie to fix it, and she failed... I spent half an hour reading the code—which
+        was well-structured and commented—and I found the error—an obscure timing error that did not show up in the
+        test suite. I swapped two lines of code, recompiled and retested—and it worked—perfectly!</p>
+    <p>It was still not quite right - there were three data entry fields for the server name, port number and the
+        callsign to log in, plus a couple of buttons and a checkbox. Junie had positioned them at the bottom of the
+        window, but I thought they really should be at the top. This was a job for the AI Assistant - I opened the chat
+        window and instructed it to update the screen definition to "move the text boxes and buttons to the top of the
+        screen". It did so perfectly.</p>
+    <p>So now I had an application that works and looks like this : <img alt="image.png" src="image.png"/> And I had
+        written no code at all - just reorganised a couple of lines of Junie's code. </p>
+    <p>Of course, I wanted to be able to show it to you guys - to do that, I needed an installer... I've tried several
+        different installation tools in the past for 101Cats, but never really liked any of them. The standard for
+        Windows is WiX - which is extremely powerful and free, but it is complicated! I have made a couple of attempts
+        at using WiX to create installation packages, but never managed to make it work. I wondered...</p>
+    <control>Junie, can you create me a WiX installation project for the DX Cluster Client?</control>
+    <p>I was hoping for a simple yes or no, but Junie went quiet for a couple of minutes, then started generating
+        files... This one did keep her busy, and it took her several iterations, but she did eventually get it right. If
+        you want to try it, you can download the result
+        <resource src="ClusterClient.Installer.zip">here.</resource>
+    </p>
+    <p>The API will be finding its way into 101Cats soon! </p>
+    <p>So, is this the end of programming as a career? It's not quite there yet, but it is getting very close! It's no
+        joke - fire up this application and test it, then consider that Junie did the whole thing in less than a day and
+        I wrote no code at all, I just swapped over a couple of lines because Junie did not recognise an obscure timing
+        error. I'm retired now and my coding efforts are restricted to turning out radio related applications for myself
+        with the hope that some of you guys might find them useful too. But if I were younger, I would be very worried -
+        it is already very good and it will only get better. 705Cats is still a proof of concept, but Junie has written
+        most of the code in it and it is really complex and impressive. I will write a bit more about that
+        elsewhere.</p>
+</topic>

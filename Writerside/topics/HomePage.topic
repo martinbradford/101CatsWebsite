@@ -37,6 +37,8 @@
         development platform. Avalonia supports multiple operating systems including Linux and MacOS. An
         experimental build of 101Cats V2 has run under Linux and it seems probable that builds for non-Windows
         operating systems will be made available.</p>
+    <p>I've also been experimenting with the latest generation of AI programming tools - and they are becoming very
+        impressive. I have written some notes <a href="AI-Tools-for-Programming.topic">here</a> - including a non-trivial example of what can be achieved.</p>
     <p>This web site was built using <a href="https://www.jetbrains.com/writerside/">JetBrains Writerside</a>.
         Writerside is a new development environment for the
         publication of technical documentation on the web. It is productive, powerful and free! The author gratefully
