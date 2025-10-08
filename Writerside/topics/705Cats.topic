@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="705Cats - coming sometime soon..." id="705Cats">
+
+    <p>A few months ago, I bought an ICOM IC-705... I had intended to buy a Yaesu FTX-1F, and put down a deposit soon
+        after it was announced, but when the detailed specifications were released, I quickly realised that it was not
+        the radio that I had been expecting, so I cashed in my deposit against the purchase of a shiny new IC-705.</p>
+    <p>When I've owned ICOMs in the past, I controlled them with Win4ICOM. It's a nice program - anyone using 101Cats
+        will be able to recognise the similarities which inevitably crept in when a Win4ICOM user designs a CAT control
+        program. When I bought the 705, I anticipated using the Win4ICOM licence that I had left over from years ago,
+        but Tom does not make it easy to move the licences for the Win4 suite applications between machines. So, in the
+        end, I decided to build upon my experience developing 101Cats and build 705Cats.</p>
+    <p>There are some fairly fundamental differences between Yaesus and ICOMs in terms of computer control. The Yaesu
+        CAT command structure is a simple, textual protocol. Commands are two letter abbreviations of the command
+        function and the parameters are numbers entered as text strings. ICOM radios use the CI/V command protocol which
+        is a lot more complex and not designed for human readability. In 101Cats, I had been able to directly use the
+        serial IO library which is a standard component of the .NET Framework and compose the commands using the basic
+        string formatting functions. For the ICOM, I was going to need a far more sophisticated API library.</p>
+    <p>About the same time that I began to think about 705Cats, I had also started experimenting with AI Programming
+        tools (<a href="AI-Tools-for-Programming.topic">see here</a>), so I opened a Junie chat window and instructed
+        her to "Create an API to control an ICOM IC-705 radio with CI/V commands". I really didn't expect very much, but
+        Junie grabbed a couple of NVIDIA NPUs in an AI server farm somewhere and ground away for a few minutes. At the
+        end of that time, Junie spat out several C# source files wrapped up in a Rider project. I read through the code
+        and it looked quite plausible. I ran some tests and it had some bugs in it, but they were mostly the result of
+        the ICOM CI/V documentation being misleading in some respects. The problems were mostly caused by inconsistent
+        data representations in some of the command parameters.</p>
+    <p>Once I had a working API, I turned my attention to the user interface. This was still quite early on in my
+        experiments with AI Agent code generation and I was not expecting too much, so I hand carves a simple
+        application in Avalonia to exercise the API. The result worked well enough - my coding efforts were helped along
+        by the JetBrains AI Assistant. I decided to create a simple proof of concept with sliders controlling half a
+        dozen of the radio operating parameters including AF gain, RF Gain, Squelch and Bandwidth. I manually created a
+        slider for the AF Gain and linked it through to the radio via the API - and the AI Assistant stepped in to offer
+        the equivalent code for all the other parameters!</p>
+    <p>As I've discussed on the Groups.IO group, I tend to prefer rotary controls to sliders. The standard Avalonia
+        framework does not include rotary controls. I have hand-coded custom controls for Avalonia - it's not
+        particularly difficult, but it is quite tedious. I opened a Junie chat and asked her to "Create an Avalonia
+        custom control that implements a rotary knob controlling an integer value." - and she did - actually rather
+        nicely structured code too. I asked the AI Assistant to update the user interface to use the rotary knob custom
+        control instead of the sliders—and it did that too...</p>
+    <p>So, where is 705Cats going? Well, the proof of concept works, but the functionality is very basic. I do want it,
+        and I want it to be portable - I anticipate using it quite often from my Android phone. To get that portability,
+        I will need to use Avalonia, but that is my preferred solution anyway. Based on the results of my AI Coding
+        Tools experiments, a lot of the work will be done by Junie, so development should go more quickly than it did
+        for 101Cats. But Junie can be quite expensive to use, so it is important to have a clear idea of the objectives
+        in order to avoid wasting a lot of AI credits in the server farm. In my experiments thus far, I've been driving
+        the AI iteratively, issuing a series of commands, reviewing the results and issuing new commands. This is not
+        the recommended way to use AI to develop a significant application. JetBrains suggests that I should write a
+        detailed requirements specification and a programming guidelines document. I then submit those to Junie which
+        reads and analyses them before generating the entire application in one shot. So that is what I'll be doing over
+        the next few weeks... If you are interested, watch this space!</p>
+</topic>
