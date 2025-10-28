@@ -13,7 +13,7 @@
         of
         enforcement means that it is unlikely that this would be actively chased. The latest official release, together
         with earlier
-         releases, is available for download from this website using the links below. This is, undoubtedly, the safest
+        releases, is available for download from this website using the links below. This is, undoubtedly, the safest
         source.</p>
     <note>
         <p>
@@ -26,18 +26,19 @@
 
         <p>UPDATE - I'm currently working on migrating the code from the Mahapps Metro User Interface framework to the
             Avalonia framework. This is being done to overcome some issues with Mahapps, but an additional benefit of
-            Avalonia is theoretical portability to other operating systems. If ths proves to be successful, versions
-            for MacOS and Linux should be possible.</p>
+            Avalonia is theoretical portability to other operating systems. If this proves to be successful, versions
+            for macOS and Linux should be possible.</p>
     </note>
     <note>
         This page describes the current official release <b>V1</b>. If you are looking for the <b>V2</b> alpha release,
-        see  <a href="Avalonia-Re-write.topic">here</a>
+        see <a href="Avalonia-Re-write.topic">here</a>
     </note>
     <chapter id="before-you-start" title="Before you start">
         <p>101Cats is not particularly demanding of the computer on which it is running. Any PC that is capable
             of reasonable performance in Windows should be sufficient. For a long time, the author ran it very
             successfully
-            on an AMD Radeon 5600 with 16Gb of memory, and it has demonstrably worked well on less powerful machines.</p>
+            on an AMD Radeon 5600 with 16Gb of memory, and it has demonstrably worked well on less powerful
+            machines.</p>
         <p>101Cats was developed under Windows 10 and the development now continues under Windows 11. It should also
             work well under Windows 8. It has not been tested under earlier versions of Windows and successful operation
             is unlikely.</p>
@@ -65,25 +66,30 @@
             to start the installation process and follow the instructions below.
         </p>
         <p>
-            <format color="Red" style="bold">101Cats is a program that is not widely used and this can trigger false
-                positive
-                warnings from some virus scanning software. The author takes care to keep his development system clean
-                and runs Norton
-                Anti-virus on it at all times. If your antivirus software flags a warning at any point during the
-                download
-                and installation process, review the details of the warning message. It will probably be a "reputation"
-                type of warning
-                which is saying that this is a rarely seen program and should be regarded with some suspicion.
+            <format color="Red" style="bold">101Cats is a program that is not widely used, and this can trigger false
+                positive warnings from some virus scanning software. The author takes care to keep his development
+                system clean
+                and runs Norton Anti-virus on it at all times. If your antivirus software flags a warning at any point
+                during the
+                download and installation process, review the details of the warning message. It will probably be a
+                "reputation"
+                type of warning which is saying that this is a rarely seen program and should be regarded with some
+                suspicion.
             </format>
         </p>
     </chapter>
 
     <chapter id="downloads" title="Downloads">
-        The current released version of 101Cats is V1.2.0.1 and you can download it via this
+        The current released version of 101Cats is V1.2.0.2 and you can download it via this
         <resource src="Setup 1.2.0.1.zip"> link</resource>
 
         <p>Previous versions are available as follows </p>
         <table style="none">
+            <tr>
+                <td>
+                    <resource src="setup_1.2.0.2.zip"> V1.2.0.2</resource>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <resource src="setup_1.2.0.0.zip"> V1.2.0.0</resource>

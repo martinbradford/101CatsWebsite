@@ -9,7 +9,14 @@
         Release notes
     </title>
 
+    <chapter id="V1-2-0-2" title="1.2.0.2">
+        <list>
+            <li>Fixed the issue where an error in the configuration of the radio serial port could lead to the application
+                closing without giving the opportunity to correct it.
+            </li>
+        </list>
 
+    </chapter>
 
     <chapter id="V1-2-0-1" title="1.2.0.1">
         <list>
@@ -20,8 +27,8 @@
 
     <chapter id="V1-2-0-0" title="1.2.0.0">
         <list>
-            <li>Reduced size of "Save" and "Cancel" buttons in macros window.</li>
-            <li>Made number of macros user configurable</li>
+            <li>Reduced size of "Save" and "Cancel" buttons in the macros window.</li>
+            <li>Made the number of macros user configurable</li>
             <li>Added "Extras" window</li>
             <li>Some cosmetic improvements</li>
         </list>
@@ -31,7 +38,7 @@
     <chapter id="v1-1-0-1" title="V1.1.0.1">
         <list>
             <li>Added functionality to power radio up on program start and power it down on program end. Controlled via
-                check boxes in miscellaneous tab of configuration dialogue box.
+                check boxes in the miscellaneous tab of the configuration dialogue box.
             </li>
 
         </list>
