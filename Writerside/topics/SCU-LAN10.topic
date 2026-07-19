@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="SCU-LAN10" id="SCU-LAN10">
+
+    <p>I came close to buying an SCU-LAN10 network interface to go with my FTdx101D when I first purchased the radio.
+    But when I researched the box, I understood that Yaesu had not released an API to permit third party applications
+    to use it, and had limited the application that they supply to speech telephony only. </p>
+    <p>A few years later, AI coding agents like Claude have developed beyond all expectations. I had seen a few comments on
+    the web which suggested that other owners of the radio had had some success in reverse engineering the network
+    protocol and I decided to risk the money, buy my own SCU-LAN10 and see how far I could get with it.</p>
+    <p>It has been a bit of an uphill struggle, and it is still not perfect, but after around three weeks working with
+    Claude, I now have a working API and 101Cats can operate my radio over a network connection pretty well.
+    Claude is clever, but not a magician, and the internet restrictions that made Yaesu so wary of
+    releasing a version of their application with an interface that is usable by applications such as WSJT-X
+    still apply. But my experiments show that it is possible to do a lot, and I have successfully run
+    WSJT-X over internet links including relatively slow 4G connections.
+    </p>
+    <p>At this stage, I would not encourage anyone to run out and buy a SCU-LAN10 solely on the promise that 101Cats will
+    support it. The latest versions of 101Cats V2 do a decent job of it and are very usable. but the audio
+    still fragments sometimes and I don't know how long it will be before I get that fixed. But if you have
+    a SCU-LAN10 and are willing to experiment. I would welcome test reports. I will expand this page soon with
+    installation and configuration instructions.</p>
+</topic>
